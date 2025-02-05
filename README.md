@@ -38,5 +38,32 @@ Clone the repository and install dependencies:
 ```sh
 git clone https://github.com/shreeragkh/prediction-model.git
 cd prediction-model
-pip install -r requirements.txt
+```
 
+After cloning the repo create a virtual environment called model and activate it :
+
+```sh
+python -m venv model
+```
+### To activate virtual environment in **Windows**
+
+```sh
+model\Scripts\activate
+```
+### To activate virtual environment in **Mac/Linux**
+
+```sh
+source model/bin/activate
+```
+
+After activating the virtual enivornment install the **Dependencies**
+
+```sh
+pip install -r requirements.txt
+```
+
+Then run the file to see the result:
+
+```sh
+python main.py
+```
