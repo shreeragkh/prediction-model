@@ -37,6 +37,6 @@ Clone the repository and install dependencies:
 
 ```sh
 git clone https://github.com/shreeragkh/prediction-model.git
-cd <project_directory>
+cd prediction-model
 pip install -r requirements.txt
 
